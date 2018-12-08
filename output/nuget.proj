@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<target Name="Build">
+	<getAssemblyIdentity AssemblyFiles="Release\lib\net452\TpMVVM_Wpf.dll">
+	  <output TaskParameter="Assemblies" ItemName="YourAssemblyInfo"/>
+	</getAssemblyIdentity>
+	<xmlUpdate
+		Prefix="nu"
+		Namespace="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"
+		XmlFileName="TimePunch-MVVM.nuspec"
+		XPath="package/nu:metadata/nu:version"
+		Value="%(YourAssemblyInfo.Version)"/>
+</target>

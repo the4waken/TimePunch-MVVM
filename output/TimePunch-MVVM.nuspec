@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TimePunch-MVVM</id>
+    <version>0.2.0</version>
+    <title></title>
+    <authors>TimePunch KG</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A clean and simple implementation of the MVVM pattern for WPF and UWP apps.</description>
+  </metadata>
+  <files>
+    <file src="release\lib\**" target="lib/" />
+</files>
+</package>
