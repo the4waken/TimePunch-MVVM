@@ -1,9 +1,9 @@
 ﻿using System.Windows.Input;
-using Calculator.MVVM.Core;
+using Example.MVVM.Core;
 using TimePunch.MVVM.Events;
 using TimePunch.MVVM.ViewModels;
 
-namespace Calculator.MVVM.ViewModels
+namespace Example.MVVM.ViewModels
 {
     public class Page2ViewModel : ViewModelBase
     {
@@ -73,7 +73,7 @@ namespace Calculator.MVVM.ViewModels
         #endregion
 
         public Page2ViewModel() 
-            : base(CalculatorKernel.Instance.EventAggregator)
+            : base(ExampleKernel.Instance.EventAggregator)
         {
         }
     }

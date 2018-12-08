@@ -1,12 +1,12 @@
 ﻿using TimePunch.MVVM.EventAggregation;
 
-namespace Calculator.MVVM.Core
+namespace Example.MVVM.Core
 {
-    public class CalculatorKernel
+    public class ExampleKernel
     {
-        private static CalculatorKernel instance;
+        private static ExampleKernel instance;
 
-        private CalculatorKernel(IEventAggregator eventAggregator)
+        private ExampleKernel(IEventAggregator eventAggregator)
         {
             EventAggregator = eventAggregator;
         }
@@ -14,12 +14,12 @@ namespace Calculator.MVVM.Core
         /// <summary>
         /// Gets or sets the Kernel Instance
         /// </summary>
-        public static CalculatorKernel Instance
+        public static ExampleKernel Instance
         {
             get
             {
                 if (instance == null)
-                    instance = new CalculatorKernel(new EventAggregator());
+                    instance = new ExampleKernel(new EventAggregator());
 
                 return instance;
             }

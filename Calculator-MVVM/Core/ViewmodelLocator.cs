@@ -1,29 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Calculator.MVVM.ViewModels;
+﻿using Example.MVVM.ViewModels;
 
-namespace Calculator.MVVM.Core
+namespace Example.MVVM.Core
 {
     public class ViewModelLocator
     {
-        private CalculatorViewmodel calculatorViewmodelBacking = null;
-        private ExampleViewModel exampleViewModelBacking = null;
-        private Page1ViewModel page1ViewModelBacking = null;
-        private Page2ViewModel page2ViewModelBacking = null;
-
-        public CalculatorViewmodel CalculatorViewModel
-        {
-            get
-            {
-                calculatorViewmodelBacking?.Dispose();
-                calculatorViewmodelBacking = new CalculatorViewmodel();
-                calculatorViewmodelBacking.Initialize();
-                return calculatorViewmodelBacking;
-            }
-        }
+        private static ExampleViewModel exampleViewModelBacking = null;
+        private static Page1ViewModel page1ViewModelBacking = null;
+        private static Page2ViewModel page2ViewModelBacking = null;
 
         public ExampleViewModel ExampleViewModel
         {

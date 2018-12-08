@@ -1,10 +1,10 @@
 ﻿using System.Windows.Input;
-using Calculator.MVVM.Core;
-using Calculator.MVVM.Events;
+using Example.MVVM.Core;
+using Example.MVVM.Events;
 using TimePunch.MVVM.Events;
 using TimePunch.MVVM.ViewModels;
 
-namespace Calculator.MVVM.ViewModels
+namespace Example.MVVM.ViewModels
 {
     /// <summary>
     /// That's the ViewModel that belongs to the Example View
@@ -23,6 +23,8 @@ namespace Calculator.MVVM.ViewModels
         {
             FadeToPage1Command = RegisterCommand(ExecuteFadeToPage1Command, CanExecuteFadeToPage1Command, true);
             SlideToPage2Command = RegisterCommand(ExecuteSlideToPage2Command, CanExecuteSlideToPage2Command, true);
+
+            AddPropertyChangedNotification(() => ExampleBindingName, () => FadeToPage1, () => FadeToPage2);
         }
 
         /// <summary>
@@ -116,8 +118,36 @@ namespace Calculator.MVVM.ViewModels
 
         #endregion
 
+        #region Property ExampleBindingName
+
+        /// <summary>
+        /// Gets or sets the ExampleBindingName.
+        /// </summary>
+        /// <value>The ExampleBindingName.</value>
+        public string ExampleBindingName
+        {
+            get { return GetPropertyValue(() => ExampleBindingName); }
+            set { SetPropertyValue(() => ExampleBindingName, value); }
+        }
+
+        #endregion
+
+
+        /// <summary>
+        /// Gets or sets the FadeToPage1.
+        /// </summary>
+        /// <value>The FadeToPage1.</value>
+        public string FadeToPage1 => "Fade to Page " + ExampleBindingName;
+
+        /// <summary>
+        /// Gets or sets the FadeToPage1.
+        /// </summary>
+        /// <value>The FadeToPage1.</value>
+        public string FadeToPage2 => "Fade to Page " + ExampleBindingName;
+
+
         public ExampleViewModel() 
-            : base(CalculatorKernel.Instance.EventAggregator)
+            : base(ExampleKernel.Instance.EventAggregator)
         {
         }
     }

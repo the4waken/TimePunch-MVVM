@@ -84,6 +84,9 @@
     <Compile Include="..\TimePunch-WPF-MVVM\Properties\AssemblyInfo.cs">
       <Link>Properties\AssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="..\TimePunch-WPF-MVVM\ViewModels\DialogResult.cs">
+      <Link>ViewModels\DialogResult.cs</Link>
+    </Compile>
     <Compile Include="..\TimePunch-WPF-MVVM\ViewModels\ViewModelBase.cs">
       <Link>ViewModels\ViewModelBase.cs</Link>
     </Compile>

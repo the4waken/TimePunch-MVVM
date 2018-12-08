@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml.Controls;
 
-namespace Calculator.MVVM.Pages
+namespace Example.MVVM.Pages
 {
     /// <summary>
     /// Interaction logic for ExampleView.xaml

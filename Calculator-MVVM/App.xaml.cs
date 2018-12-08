@@ -4,10 +4,10 @@ using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using Calculator.MVVM.Core;
-using Calculator.MVVM.Pages;
+using Example.MVVM.Core;
+using Example.MVVM.Pages;
 
-namespace Calculator.MVVM
+namespace Example.MVVM
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -52,7 +52,7 @@ namespace Calculator.MVVM
             }
 
             // Initialize the kernel
-            new CalculatorController().Init(rootFrame);
+            new ExampleController().Init(rootFrame);
 
             if (e.PrelaunchActivated == false)
             {

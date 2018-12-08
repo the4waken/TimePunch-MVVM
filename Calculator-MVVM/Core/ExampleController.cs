@@ -1,11 +1,11 @@
-﻿using Calculator.MVVM.Events;
-using Calculator.MVVM.Pages;
+﻿using Example.MVVM.Events;
+using Example.MVVM.Pages;
 using TimePunch.MVVM.Controller;
 using TimePunch.MVVM.EventAggregation;
 
-namespace Calculator.MVVM.Core
+namespace Example.MVVM.Core
 {
-    public class CalculatorController : BaseController,
+    public class ExampleController : BaseController,
         IHandleMessage<NavigateToPage1>,
         IHandleMessage<NavigateToPage2>
     {
@@ -27,7 +27,7 @@ namespace Calculator.MVVM.Core
             NavigateToPage(typeof(Page2View));
         }
 
-        public CalculatorController() : base(CalculatorKernel.Instance.EventAggregator)
+        public ExampleController() : base(ExampleKernel.Instance.EventAggregator)
         {
         }
     }
