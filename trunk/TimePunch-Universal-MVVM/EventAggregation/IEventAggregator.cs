@@ -2,6 +2,8 @@
 // Please see http://go.microsoft.com/fwlink/?LinkID=131993 for details.
 // All other rights reserved.
 
+using System.Threading.Tasks;
+
 namespace TimePunch.MVVM.EventAggregation
 {
     /// <summary>
@@ -28,5 +30,13 @@ namespace TimePunch.MVVM.EventAggregation
         /// <param name="message">the message containing data</param>
         /// <returns>the message itself</returns>
         TMessage PublishMessage<TMessage>(TMessage message);
+
+        /// <summary>
+        /// Publishes a new message to all subsribers of this message type.
+        /// </summary>
+        /// <typeparam name="TMessage">the type of the message</typeparam>
+        /// <param name="message">the message containing data</param>
+        /// <returns>the message itself</returns>
+        Task<TMessage> PublishMessageAsync<TMessage>(TMessage message);
     }
 }

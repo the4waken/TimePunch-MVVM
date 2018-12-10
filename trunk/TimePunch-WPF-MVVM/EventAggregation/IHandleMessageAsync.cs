@@ -17,7 +17,7 @@ namespace TimePunch.MVVM.EventAggregation
         /// Handles a message of a specific type.
         /// </summary>
         /// <param name="message">the message to handle</param>
-        Task Handle(TMessage message);
+        Task<TMessage> Handle(TMessage message);
     }
 }
     
