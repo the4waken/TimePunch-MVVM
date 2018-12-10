@@ -56,6 +56,7 @@
     <Compile Include="EventAggregation\EventAggregator.cs" />
     <Compile Include="EventAggregation\IEventAggregator.cs" />
     <Compile Include="EventAggregation\IHandleMessage.cs" />
+    <Compile Include="EventAggregation\IHandleMessageAsync.cs" />
     <Compile Include="Events\GoBackNavigationRequest.cs" />
     <Compile Include="Events\NavigatedEvent.cs" />
     <Compile Include="Events\NavigationCompletedEvent.cs" />

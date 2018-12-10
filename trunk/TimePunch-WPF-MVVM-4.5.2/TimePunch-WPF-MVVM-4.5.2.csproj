@@ -69,6 +69,9 @@
     <Compile Include="..\TimePunch-WPF-MVVM\EventAggregation\IHandleMessage.cs">
       <Link>EventAggregation\IHandleMessage.cs</Link>
     </Compile>
+    <Compile Include="..\TimePunch-WPF-MVVM\EventAggregation\IHandleMessageAsync.cs">
+      <Link>EventAggregation\IHandleMessageAsync.cs</Link>
+    </Compile>
     <Compile Include="..\TimePunch-WPF-MVVM\Events\GoBackNavigationRequest.cs">
       <Link>Events\GoBackNavigationRequest.cs</Link>
     </Compile>
