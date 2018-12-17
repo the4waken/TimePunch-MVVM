@@ -1,0 +1,12 @@
+﻿2018-11-28 13:50:38,736 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 13:57:46,639 [1] ERROR FileLogger - Media failed: Die Mediendatei wurde nicht gefunden.
+2018-11-28 13:58:02,658 [1] ERROR FileLogger - Media failed: Die Mediendatei wurde nicht gefunden.
+2018-11-28 13:59:08,771 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:03:32,023 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 14:05:00,957 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:05:09,776 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:24:58,890 [1] ERROR FileLogger - Die bereitgestellte Filterzeichenfolge ist ungültig. Die Filterzeichenfolge muss eine Beschreibung des Filters enthalten, gefolgt von einem vertikalen Strich und dem Filtermuster. Weitere Filterbeschreibungen und Musterpaare müssen ebenfalls durch einen vertikalen Strich getrennt werden. Mehrfache Erweiterungen in Filtermustern werden mit einem Semikolon getrennt. Beispiel: "Bilddateien (*.bmp, *.jpg)|*.bmp;*.jpg|Alle Dateien (*.*)|*.*"
+2018-12-03 13:16:01,649 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 13:18:04,465 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 14:13:15,454 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 15:03:38,936 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.

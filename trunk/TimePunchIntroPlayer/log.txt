@@ -1,0 +1,121 @@
+﻿2018-11-28 13:50:38,736 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 13:50:47,197 [1] INFO  FileLogger - Playing video
+2018-11-28 13:50:47,954 [1] DEBUG FileLogger - Media opened 'C:/Users/FerenzHelm/Documents/Meine empfangenen Dateien/output_HD1080.mp4'
+2018-11-28 13:57:46,639 [1] ERROR FileLogger - Media failed: Die Mediendatei wurde nicht gefunden.
+2018-11-28 13:58:02,658 [1] ERROR FileLogger - Media failed: Die Mediendatei wurde nicht gefunden.
+2018-11-28 13:59:08,727 [1] DEBUG FileLogger - Starting explorer.exe for locating to 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 13:59:08,771 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:03:32,023 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 14:05:00,914 [1] DEBUG FileLogger - Starting explorer.exe for locating to 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:05:00,957 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:05:09,758 [1] DEBUG FileLogger - Starting explorer.exe for locating to 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:05:09,776 [1] ERROR FileLogger - Couldn't locate to directory: 'C:\ProgramData\TimePunchIntroPlayer\Videos'
+2018-11-28 14:24:58,890 [1] ERROR FileLogger - Die bereitgestellte Filterzeichenfolge ist ungültig. Die Filterzeichenfolge muss eine Beschreibung des Filters enthalten, gefolgt von einem vertikalen Strich und dem Filtermuster. Weitere Filterbeschreibungen und Musterpaare müssen ebenfalls durch einen vertikalen Strich getrennt werden. Mehrfache Erweiterungen in Filtermustern werden mit einem Semikolon getrennt. Beispiel: "Bilddateien (*.bmp, *.jpg)|*.bmp;*.jpg|Alle Dateien (*.*)|*.*"
+2018-11-28 14:27:24,560 [1] INFO  FileLogger - Closing current window
+2018-11-28 14:29:31,450 [1] INFO  FileLogger - Closing current window
+2018-11-28 14:30:23,256 [1] INFO  FileLogger - Closing current window
+2018-11-28 14:30:27,613 [1] INFO  FileLogger - Playing video
+2018-11-28 14:30:28,084 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-11-28 14:35:04,442 [1] INFO  FileLogger - Closing current window
+2018-11-28 14:36:22,017 [1] INFO  FileLogger - Closing current window
+2018-11-28 14:37:21,610 [1] INFO  FileLogger - Closing current window
+2018-11-28 14:39:32,017 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:40:10,887 [1] INFO  FileLogger - Locating to 'True'
+2018-11-28 14:40:10,888 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:40:15,287 [1] INFO  FileLogger - Locating to 'True'
+2018-11-28 14:40:15,287 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:40:24,173 [1] INFO  FileLogger - Locating to 'True'
+2018-11-28 14:40:24,173 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:41:44,260 [1] INFO  FileLogger - LocExecuting command 'explorer.exe'
+2018-11-28 14:41:44,264 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:41:52,706 [1] INFO  FileLogger - LocExecuting command 'explorer.exe'
+2018-11-28 14:41:52,706 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:42:44,884 [1] INFO  FileLogger - Opening file 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 14:42:44,886 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:44:54,112 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 14:44:54,118 [1] INFO  FileLogger - Going back to menu
+2018-11-28 14:44:54,677 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-11-28 14:44:57,565 [1] INFO  FileLogger - Pausing video
+2018-11-28 14:44:58,357 [1] INFO  FileLogger - Playing video
+2018-11-28 14:45:45,383 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 14:45:45,396 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 14:45:45,789 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-11-28 14:49:16,066 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 14:49:16,072 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 14:49:16,319 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-11-28 14:50:29,025 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 14:50:29,026 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 14:50:36,069 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:37,980 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:41,004 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:41,205 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:42,597 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:42,918 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:43,101 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:43,252 [1] INFO  FileLogger - Playing video
+2018-11-28 14:50:47,673 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 14:50:47,673 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 14:52:29,520 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 14:52:29,521 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 14:52:30,541 [1] INFO  FileLogger - Playing video
+2018-11-28 14:58:06,369 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 14:58:06,375 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 14:58:07,382 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:00:48,315 [1] DEBUG FileLogger - Media ended 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:00:55,294 [1] INFO  FileLogger - Playing video
+2018-11-28 15:01:03,333 [1] INFO  FileLogger - Playing video
+2018-11-28 15:25:42,589 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:25:42,593 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:25:43,877 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:26:20,176 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:26:20,180 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:26:20,932 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:26:47,165 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:26:47,167 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:26:47,958 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:27:45,882 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:27:45,885 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:27:47,102 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:34:14,333 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:34:14,337 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:34:15,608 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:34:48,046 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 15:34:48,050 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:34:48,820 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-11-28 15:35:16,657 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:35:16,662 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:35:17,389 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:35:38,224 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:35:38,227 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:35:38,983 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:37:16,453 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:37:16,460 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:37:17,096 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:38:50,245 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\output_HD1080.mp4'
+2018-11-28 15:38:50,248 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:38:51,317 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-11-28 15:38:51,990 [1] INFO  FileLogger - Playing video
+2018-11-28 15:38:53,542 [1] INFO  FileLogger - Pausing video
+2018-11-28 15:38:58,142 [1] INFO  FileLogger - Playing video
+2018-11-28 15:39:09,265 [1] INFO  FileLogger - Opening directory 'C:\ProgramData\TimePunchIntroPlayer\Videos\Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-11-28 15:39:09,265 [1] INFO  FileLogger - Going back to videoplayer
+2018-11-28 15:39:09,809 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-12-03 11:44:08,684 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 11:44:48,502 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:01:35,079 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:09:05,608 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:12:46,168 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:13:20,225 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:14:13,799 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:14:47,128 [1] DEBUG FileLogger - Media ended 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:23:34,546 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:27:10,666 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 12:27:29,491 [1] DEBUG FileLogger - Media ended 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 13:05:28,134 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 13:05:39,927 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'
+2018-12-03 13:16:01,649 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 13:18:04,465 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 14:13:15,454 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 14:57:03,012 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/output_HD1080.mp4'
+2018-12-03 15:03:38,936 [1] ERROR FileLogger - Media failed: Fehler beim Herunterladen der Mediendatei.
+2018-12-03 15:04:25,537 [1] DEBUG FileLogger - Media opened 'C:/ProgramData/TimePunchIntroPlayer/Videos/Robin ferngesteuert im Imbiss - LUKE! Die Woche und ich.mp4'

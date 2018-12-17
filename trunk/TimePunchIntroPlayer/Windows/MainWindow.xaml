@@ -1,0 +1,157 @@
+﻿<Window
+    x:Class="TimePunchIntroPlayer.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ressources="clr-namespace:TimePunchIntroPlayer.Ressources"
+    Title="{x:Static ressources:MainWindow.WindowTitle}"
+    Width="800"
+    Height="450"
+    DataContext="{Binding Source={StaticResource ViewModelLocater}, Path=MainViewModel}"
+    mc:Ignorable="d">
+    <Grid Background="LightGray">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <Menu
+            x:Name="SelectFileMenu"
+            Grid.Row="0"
+            HorizontalAlignment="Left">
+            <MenuItem
+                x:Name="SelectFileMenu_OpenFile"
+                Width="auto"
+                Height="auto"
+                Header="{x:Static ressources:MainWindow.FileMenuHeader}">
+
+                <MenuItem
+                    Width="auto"
+                    Height="auto"
+                    Command="{Binding OpenMp4Command}"
+                    Header="{x:Static ressources:MainWindow.FileMenuOpenVideo}" />
+
+            </MenuItem>
+            <MenuItem
+                x:Name="AboutMenu_OpenInfoWindow"
+                Width="auto"
+                Height="auto"
+                Header="{x:Static ressources:MainWindow.AboutHeader}">
+                <MenuItem
+                    Width="auto"
+                    Height="auto"
+                    Command="{Binding OpenAboutWindowCommand}"
+                    Header="{x:Static ressources:MainWindow.AboutHeaderInfo}" />
+            </MenuItem>
+        </Menu>
+
+        <Border
+            Grid.Row="1"
+            Margin="10"
+            BorderBrush="Aqua"
+            BorderThickness="1"
+            CornerRadius="15">
+            <MediaElement
+                x:Name="VideoPlayer"
+                LoadedBehavior="Manual"
+                MediaEnded="VideoPlayer_MediaEnded"
+                MediaFailed="VideoPlayer_MediaFailed"
+                MediaOpened="VideoPlayer_MediaOpened"
+                Stretch="Uniform"
+                UnloadedBehavior="Stop" />
+        </Border>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Label
+                Grid.Row="0"
+                Grid.Column="0"
+                Content="{x:Static ressources:MainWindow.PositionDefinerPrefix}" />
+            <Slider
+                x:Name="VideoPositonDefiner"
+                Grid.Column="1"
+                Margin="5"
+                Cursor="Hand"
+                IsMoveToPointEnabled="True"
+                Value="{Binding VideoPosition, Mode=TwoWay}" />
+
+            <Label
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalAlignment="Center"
+                Content="{Binding VideoPosition, Converter={StaticResource DoubleToTimespanConverter}}" />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="0"
+                Content="{x:Static ressources:MainWindow.VolumeDefinerPrefix}" />
+
+            <Slider
+                x:Name="VideoVolumeDefiner"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="5"
+                Cursor="Hand"
+                IsMoveToPointEnabled="True"
+                Maximum="100"
+                Minimum="1"
+                Value="{Binding VideoVolume, Mode=TwoWay}" />
+
+            <Label
+                Grid.Row="1"
+                Grid.Column="2"
+                HorizontalAlignment="Center"
+                Content="{Binding VideoVolume, Converter={StaticResource DoubleToIntConverter}}" />
+        </Grid>
+
+        <!--  Usercontrols area  -->
+
+        <Grid Grid.Row="4" Background="DarkGray">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel
+                Grid.Row="3"
+                HorizontalAlignment="Center"
+                Orientation="Horizontal">
+                <!--  Left Button  -->
+                <Button
+                    x:Name="PlayButton"
+                    Grid.Row="2"
+                    Width="100"
+                    Height="25"
+                    Margin="5"
+                    Command="{Binding PlayVideoCommand}"
+                    Content="{x:Static ressources:MainWindow.Play}" />
+                <!--  Right Button  -->
+                <Button
+                    x:Name="PauseButton"
+                    Grid.Row="3"
+                    Width="100"
+                    Height="25"
+                    Margin="5"
+                    Command="{Binding PauseVideoCommand}"
+                    Content="{x:Static ressources:MainWindow.Pause}" />
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>
